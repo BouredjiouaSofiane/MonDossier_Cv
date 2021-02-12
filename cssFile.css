@@ -1,0 +1,139 @@
+
+.corps{
+    /*text-align: center; */
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+  background-color: rgba(100, 200, 100, 0.5);
+		
+}
+
+body{
+  text-align: center;  
+ padding-left: 10%; 
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.moi{
+  background-color: gray;
+}
+/*titre de la page de contact */ 
+h1{
+  position: absolute;
+  display: flex;
+  padding-left: 43%;
+  text-shadow: 10px;
+}
+
+
+
+/*mecontacter.php*/
+button{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-radius: 20px 20px 20px 20px;
+  border: solid 1px;
+  background-color: #808000;
+  
+}
+
+/*mecontacter.php*/
+#envoyer{
+  text-align: center;
+}
+
+/*mecontacter.php*/
+.message{
+    text-align: justify;  
+ 
+}
+
+.moi{
+  position: absolute;
+  padding-top: 2px;
+}
+
+/*liste des langages et liste des outils*/
+.uli,.toul{
+  display: inline-table;
+}
+
+.box {
+  display: grid;
+  position: absolute;
+  padding-left: 75%;
+
+
+}
+
+/*fieledset des compétences */
+.fsetComp{
+  text-align: center;
+  color: #808000;
+  box-shadow: 2px;
+  border: solid;
+  text-shadow: 2px;
+}
+
+/*fieledset des projets académiques */
+.fset{
+  color: #808000;
+}
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
