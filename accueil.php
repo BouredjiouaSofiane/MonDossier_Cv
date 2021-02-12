@@ -24,7 +24,7 @@
 	  <li>  <a href="#">Services</a> </li>
 	  <li>  <a href="https://www.linkedin.com/in/sofiane-bouredjioua-28a659142/" target="b_lank">Visiter mon profile linkedIn</a></li>
 	  <li>  <a href="mecontacter.php">Me contacter</a> </li>
-	  <li> <a href="setForAll.php">GitFlow</a> </li>
+	  <li> <a href="allSetFor.php">GitFlow</a> </li>
 	</ul>    
   </div>
 </div>

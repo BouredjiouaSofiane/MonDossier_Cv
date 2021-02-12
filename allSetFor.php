@@ -54,12 +54,14 @@ function closeNav() {
 		<img class="box" src="logo.png" alt="paris descartes">
 	<br>
 
-	<img src="allsetfor.png" alt="AllSetFor logo">
+	<img src="allsetfor.png" alt="AllSetFor logo"> <br><br>
 
-	<h3>Réponse à la 2ème question sur GitFlow</h3>
+ 
 
-	<div>
+	<h3>Réponse à la 2ème question sur GitFlow :</h3> <br>
 
+	
+	<fieldset>
 		<h5>Le principe de Gitflow est d'avoir plusieurs branches de cas concrets. </h5>
 			<li>
 				Une branche Master va etre la branche principale sur laquelle on va avoir peut de commit au final. Sur cette branche on va mettre que des versions déstinées à la production. Donc si par exemple on travaille sur une feature, on ne va pas travailler directement sur la branche Master. Alors si on souhaite déployer Master sur un serveur, on risque d'envoyer des commits qui vont nous perturber. 
@@ -78,7 +80,8 @@ function closeNav() {
 			<li>
 				On créé aussi une des branches  Hotfixe, s'il existe certains bugs dans l'application. Aprè correction des bugs on merge la branche sur Develop et Master.
 			</li>
-	</div>
+		</fieldset>
+	
 
 
 
