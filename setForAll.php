@@ -54,6 +54,8 @@ function closeNav() {
 		<img class="box" src="logo.png" alt="paris descartes">
 	<br>
 
+	<img src="allsetfor.png" alt="AllSetFor logo" style="text-align: center;">
+
 	<h3>Réponse à la 2ème question sur GitFlow</h3>
 
 	<div>
