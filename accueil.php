@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 	<title>Accueil</title>
-
+	<link rel="stylesheet" type="text/css" href="">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="cssFile.css">
@@ -89,7 +89,7 @@ function closeNav() {
 			    <a class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" onclick="openPage('Home', this, 'red')">Bureautique</a>
 			    
 			    <a class="nav-link" id="v-pills-outils-tab" data-bs-toggle="pill" href="#v-pills-outils" role="tab" aria-controls="v-pills-outils" aria-selected="false" onclick="openPage('Home', this, 'red')">Outils</a>
-			  </div>
+			</div>
 			  <div class="tab-content" id="v-pills-tabContent">
 			    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
 			    		
@@ -148,9 +148,9 @@ function closeNav() {
 
 			    
 			  </div>
-
+			</fieldset>
 		</div>
-		</fieldset>
+		
 		
 			<div>
 				<script>
