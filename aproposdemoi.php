@@ -30,7 +30,7 @@
             <h1 class="text-white">Contact</h1>
 
       <span class="navbar-toggler-icon"></span>
-      <button onclick="(window.location.href='accueil.php')" id="btn" name="btn">Retour</button>
+      <button onclick="(window.location.href='accueil.html')" id="btn" name="btn">Retour</button>
     </button>
   </div>
 </nav>
